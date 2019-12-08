@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.App {
+  font-family: sans-serif;
+}
+
+.navbar {
+  transition: all 330ms ease-out;
+}
+
+.navbar-open {
+  transform: translateX(0%);
+}
+.navbar-close {
+  transform: translateX(-100%);
+}
